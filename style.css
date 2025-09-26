@@ -122,6 +122,13 @@ header .navbar {
 .icon {
   background: #f1efef;
 }
+/* ===============================profile==================== */
+.profile{
+  width: 250px;
+  height: 450px;
+  border-radius: 15px;
+}
+
 /* ================================sec1================= */
 
 .cnt {
@@ -146,11 +153,11 @@ header .navbar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
   min-height: 97dvh;
 }
-.main > * {
+.first  {
   width: 50%;
 }
 .main > div > h3 {
